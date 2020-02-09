@@ -21,7 +21,7 @@ public class Pelicula {
 		this.titulo = titulo;
 		this.director = director;
 		this.duracion = duracion;
-		this.actores = actores;
+		this.actores = new Actor [15];
 		this.numeroActores = actores.length;
 	}
 	public String getTitulo() {
